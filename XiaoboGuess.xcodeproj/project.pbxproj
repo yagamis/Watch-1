@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3F38471AE0B440004141FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F38461AE0B440004141FE /* AppDelegate.swift */; };
+		1D3F38491AE0B440004141FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F38481AE0B440004141FE /* ViewController.swift */; };
+		1D3F384C1AE0B440004141FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F384A1AE0B440004141FE /* Main.storyboard */; };
+		1D3F384E1AE0B440004141FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F384D1AE0B440004141FE /* Images.xcassets */; };
+		1D3F38511AE0B440004141FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F384F1AE0B440004141FE /* LaunchScreen.xib */; };
+		1D3F385D1AE0B440004141FE /* XiaoboGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F385C1AE0B440004141FE /* XiaoboGuessTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D3F38571AE0B440004141FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D3F38391AE0B440004141FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3F38401AE0B440004141FE;
+			remoteInfo = XiaoboGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3F38411AE0B440004141FE /* XiaoboGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoboGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3F38451AE0B440004141FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3F38461AE0B440004141FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D3F38481AE0B440004141FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D3F384B1AE0B440004141FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D3F384D1AE0B440004141FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D3F38501AE0B440004141FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D3F38561AE0B440004141FE /* XiaoboGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoboGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3F385B1AE0B440004141FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3F385C1AE0B440004141FE /* XiaoboGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaoboGuessTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3F383E1AE0B440004141FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3F38531AE0B440004141FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D3F38381AE0B440004141FE = {
+			isa = PBXGroup;
+			children = (
+				1D3F38431AE0B440004141FE /* XiaoboGuess */,
+				1D3F38591AE0B440004141FE /* XiaoboGuessTests */,
+				1D3F38421AE0B440004141FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D3F38421AE0B440004141FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F38411AE0B440004141FE /* XiaoboGuess.app */,
+				1D3F38561AE0B440004141FE /* XiaoboGuessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D3F38431AE0B440004141FE /* XiaoboGuess */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F38461AE0B440004141FE /* AppDelegate.swift */,
+				1D3F38481AE0B440004141FE /* ViewController.swift */,
+				1D3F384A1AE0B440004141FE /* Main.storyboard */,
+				1D3F384D1AE0B440004141FE /* Images.xcassets */,
+				1D3F384F1AE0B440004141FE /* LaunchScreen.xib */,
+				1D3F38441AE0B440004141FE /* Supporting Files */,
+			);
+			path = XiaoboGuess;
+			sourceTree = "<group>";
+		};
+		1D3F38441AE0B440004141FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F38451AE0B440004141FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D3F38591AE0B440004141FE /* XiaoboGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F385C1AE0B440004141FE /* XiaoboGuessTests.swift */,
+				1D3F385A1AE0B440004141FE /* Supporting Files */,
+			);
+			path = XiaoboGuessTests;
+			sourceTree = "<group>";
+		};
+		1D3F385A1AE0B440004141FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F385B1AE0B440004141FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D3F38401AE0B440004141FE /* XiaoboGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3F38601AE0B440004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuess" */;
+			buildPhases = (
+				1D3F383D1AE0B440004141FE /* Sources */,
+				1D3F383E1AE0B440004141FE /* Frameworks */,
+				1D3F383F1AE0B440004141FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiaoboGuess;
+			productName = XiaoboGuess;
+			productReference = 1D3F38411AE0B440004141FE /* XiaoboGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D3F38551AE0B440004141FE /* XiaoboGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3F38631AE0B440004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuessTests" */;
+			buildPhases = (
+				1D3F38521AE0B440004141FE /* Sources */,
+				1D3F38531AE0B440004141FE /* Frameworks */,
+				1D3F38541AE0B440004141FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D3F38581AE0B440004141FE /* PBXTargetDependency */,
+			);
+			name = XiaoboGuessTests;
+			productName = XiaoboGuessTests;
+			productReference = 1D3F38561AE0B440004141FE /* XiaoboGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D3F38391AE0B440004141FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiaobo;
+				TargetAttributes = {
+					1D3F38401AE0B440004141FE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1D3F38551AE0B440004141FE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1D3F38401AE0B440004141FE;
+					};
+				};
+			};
+			buildConfigurationList = 1D3F383C1AE0B440004141FE /* Build configuration list for PBXProject "XiaoboGuess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D3F38381AE0B440004141FE;
+			productRefGroup = 1D3F38421AE0B440004141FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D3F38401AE0B440004141FE /* XiaoboGuess */,
+				1D3F38551AE0B440004141FE /* XiaoboGuessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D3F383F1AE0B440004141FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3F384C1AE0B440004141FE /* Main.storyboard in Resources */,
+				1D3F38511AE0B440004141FE /* LaunchScreen.xib in Resources */,
+				1D3F384E1AE0B440004141FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3F38541AE0B440004141FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D3F383D1AE0B440004141FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3F38491AE0B440004141FE /* ViewController.swift in Sources */,
+				1D3F38471AE0B440004141FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3F38521AE0B440004141FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3F385D1AE0B440004141FE /* XiaoboGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D3F38581AE0B440004141FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D3F38401AE0B440004141FE /* XiaoboGuess */;
+			targetProxy = 1D3F38571AE0B440004141FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D3F384A1AE0B440004141FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3F384B1AE0B440004141FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D3F384F1AE0B440004141FE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3F38501AE0B440004141FE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D3F385E1AE0B440004141FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D3F385F1AE0B440004141FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D3F38611AE0B440004141FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XiaoboGuess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D3F38621AE0B440004141FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XiaoboGuess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D3F38641AE0B440004141FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XiaoboGuessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoboGuess.app/XiaoboGuess";
+			};
+			name = Debug;
+		};
+		1D3F38651AE0B440004141FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XiaoboGuessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoboGuess.app/XiaoboGuess";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3F383C1AE0B440004141FE /* Build configuration list for PBXProject "XiaoboGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3F385E1AE0B440004141FE /* Debug */,
+				1D3F385F1AE0B440004141FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3F38601AE0B440004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3F38611AE0B440004141FE /* Debug */,
+				1D3F38621AE0B440004141FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D3F38631AE0B440004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3F38641AE0B440004141FE /* Debug */,
+				1D3F38651AE0B440004141FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D3F38391AE0B440004141FE /* Project object */;
+}
