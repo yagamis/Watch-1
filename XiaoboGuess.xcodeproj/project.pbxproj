@@ -13,6 +13,12 @@
 		1D3F384E1AE0B440004141FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F384D1AE0B440004141FE /* Images.xcassets */; };
 		1D3F38511AE0B440004141FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F384F1AE0B440004141FE /* LaunchScreen.xib */; };
 		1D3F385D1AE0B440004141FE /* XiaoboGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F385C1AE0B440004141FE /* XiaoboGuessTests.swift */; };
+		1D3F386F1AE0B47B004141FE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F386E1AE0B47B004141FE /* InterfaceController.swift */; };
+		1D3F38711AE0B47B004141FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F38701AE0B47B004141FE /* Images.xcassets */; };
+		1D3F38751AE0B47B004141FE /* XiaoboGuess WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F38741AE0B47B004141FE /* XiaoboGuess WatchKit App.app */; };
+		1D3F387D1AE0B47B004141FE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F387B1AE0B47B004141FE /* Interface.storyboard */; };
+		1D3F387F1AE0B47B004141FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3F387E1AE0B47B004141FE /* Images.xcassets */; };
+		1D3F38821AE0B47B004141FE /* XiaoboGuess WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D3F386A1AE0B47B004141FE /* XiaoboGuess WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = 1D3F38401AE0B440004141FE;
 			remoteInfo = XiaoboGuess;
 		};
+		1D3F38761AE0B47B004141FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D3F38391AE0B440004141FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3F38731AE0B47B004141FE;
+			remoteInfo = "XiaoboGuess WatchKit App";
+		};
+		1D3F38801AE0B47B004141FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D3F38391AE0B440004141FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3F38691AE0B47B004141FE;
+			remoteInfo = "XiaoboGuess WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D3F38891AE0B47B004141FE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D3F38821AE0B47B004141FE /* XiaoboGuess WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D3F38411AE0B440004141FE /* XiaoboGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoboGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		1D3F38561AE0B440004141FE /* XiaoboGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoboGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3F385B1AE0B440004141FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3F385C1AE0B440004141FE /* XiaoboGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaoboGuessTests.swift; sourceTree = "<group>"; };
+		1D3F386A1AE0B47B004141FE /* XiaoboGuess WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XiaoboGuess WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3F386D1AE0B47B004141FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3F386E1AE0B47B004141FE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1D3F38701AE0B47B004141FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D3F38741AE0B47B004141FE /* XiaoboGuess WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XiaoboGuess WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3F387A1AE0B47B004141FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3F387C1AE0B47B004141FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1D3F387E1AE0B47B004141FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D3F38671AE0B47B004141FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				1D3F38431AE0B440004141FE /* XiaoboGuess */,
 				1D3F38591AE0B440004141FE /* XiaoboGuessTests */,
+				1D3F386B1AE0B47B004141FE /* XiaoboGuess WatchKit Extension */,
+				1D3F38781AE0B47B004141FE /* XiaoboGuess WatchKit App */,
 				1D3F38421AE0B440004141FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				1D3F38411AE0B440004141FE /* XiaoboGuess.app */,
 				1D3F38561AE0B440004141FE /* XiaoboGuessTests.xctest */,
+				1D3F386A1AE0B47B004141FE /* XiaoboGuess WatchKit Extension.appex */,
+				1D3F38741AE0B47B004141FE /* XiaoboGuess WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1D3F386B1AE0B47B004141FE /* XiaoboGuess WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F386E1AE0B47B004141FE /* InterfaceController.swift */,
+				1D3F38701AE0B47B004141FE /* Images.xcassets */,
+				1D3F386C1AE0B47B004141FE /* Supporting Files */,
+			);
+			path = "XiaoboGuess WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1D3F386C1AE0B47B004141FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F386D1AE0B47B004141FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D3F38781AE0B47B004141FE /* XiaoboGuess WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F387B1AE0B47B004141FE /* Interface.storyboard */,
+				1D3F387E1AE0B47B004141FE /* Images.xcassets */,
+				1D3F38791AE0B47B004141FE /* Supporting Files */,
+			);
+			path = "XiaoboGuess WatchKit App";
+			sourceTree = "<group>";
+		};
+		1D3F38791AE0B47B004141FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F387A1AE0B47B004141FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				1D3F383D1AE0B440004141FE /* Sources */,
 				1D3F383E1AE0B440004141FE /* Frameworks */,
 				1D3F383F1AE0B440004141FE /* Resources */,
+				1D3F38891AE0B47B004141FE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1D3F38811AE0B47B004141FE /* PBXTargetDependency */,
 			);
 			name = XiaoboGuess;
 			productName = XiaoboGuess;
@@ -150,6 +241,39 @@
 			productReference = 1D3F38561AE0B440004141FE /* XiaoboGuessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1D3F38691AE0B47B004141FE /* XiaoboGuess WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3F38861AE0B47B004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuess WatchKit Extension" */;
+			buildPhases = (
+				1D3F38661AE0B47B004141FE /* Sources */,
+				1D3F38671AE0B47B004141FE /* Frameworks */,
+				1D3F38681AE0B47B004141FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D3F38771AE0B47B004141FE /* PBXTargetDependency */,
+			);
+			name = "XiaoboGuess WatchKit Extension";
+			productName = "XiaoboGuess WatchKit Extension";
+			productReference = 1D3F386A1AE0B47B004141FE /* XiaoboGuess WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1D3F38731AE0B47B004141FE /* XiaoboGuess WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3F38831AE0B47B004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuess WatchKit App" */;
+			buildPhases = (
+				1D3F38721AE0B47B004141FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XiaoboGuess WatchKit App";
+			productName = "XiaoboGuess WatchKit App";
+			productReference = 1D3F38741AE0B47B004141FE /* XiaoboGuess WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					1D3F38551AE0B440004141FE = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 1D3F38401AE0B440004141FE;
+					};
+					1D3F38691AE0B47B004141FE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1D3F38731AE0B47B004141FE = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				1D3F38401AE0B440004141FE /* XiaoboGuess */,
 				1D3F38551AE0B440004141FE /* XiaoboGuessTests */,
+				1D3F38691AE0B47B004141FE /* XiaoboGuess WatchKit Extension */,
+				1D3F38731AE0B47B004141FE /* XiaoboGuess WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3F38681AE0B47B004141FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3F38751AE0B47B004141FE /* XiaoboGuess WatchKit App.app in Resources */,
+				1D3F38711AE0B47B004141FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3F38721AE0B47B004141FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3F387D1AE0B47B004141FE /* Interface.storyboard in Resources */,
+				1D3F387F1AE0B47B004141FE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D3F38661AE0B47B004141FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3F386F1AE0B47B004141FE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = 1D3F38401AE0B440004141FE /* XiaoboGuess */;
 			targetProxy = 1D3F38571AE0B440004141FE /* PBXContainerItemProxy */;
+		};
+		1D3F38771AE0B47B004141FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D3F38731AE0B47B004141FE /* XiaoboGuess WatchKit App */;
+			targetProxy = 1D3F38761AE0B47B004141FE /* PBXContainerItemProxy */;
+		};
+		1D3F38811AE0B47B004141FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D3F38691AE0B47B004141FE /* XiaoboGuess WatchKit Extension */;
+			targetProxy = 1D3F38801AE0B47B004141FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				1D3F38501AE0B440004141FE /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1D3F387B1AE0B47B004141FE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3F387C1AE0B47B004141FE /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,6 +568,62 @@
 			};
 			name = Release;
 		};
+		1D3F38841AE0B47B004141FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = XiaoboGuess_WatchKit_Extension;
+				INFOPLIST_FILE = "XiaoboGuess WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1D3F38851AE0B47B004141FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = XiaoboGuess_WatchKit_Extension;
+				INFOPLIST_FILE = "XiaoboGuess WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1D3F38871AE0B47B004141FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XiaoboGuess WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1D3F38881AE0B47B004141FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "XiaoboGuess WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +649,22 @@
 			buildConfigurations = (
 				1D3F38641AE0B440004141FE /* Debug */,
 				1D3F38651AE0B440004141FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D3F38831AE0B47B004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuess WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3F38841AE0B47B004141FE /* Debug */,
+				1D3F38851AE0B47B004141FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D3F38861AE0B47B004141FE /* Build configuration list for PBXNativeTarget "XiaoboGuess WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3F38871AE0B47B004141FE /* Debug */,
+				1D3F38881AE0B47B004141FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

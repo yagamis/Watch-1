@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--小波赌大小-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="小波赌大小" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="XiaoboGuess_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <slider width="1" alignment="left" value="3" minimum="1" maximum="10" steps="10" id="ag0-h3-SVu">
+                            <connections>
+                                <action selector="updateGuessNumber:" destination="AgC-eL-Hgc" id="HS1-ST-4cT"/>
+                            </connections>
+                        </slider>
+                        <label alignment="center" text="选3,小" id="pqi-kR-koh"/>
+                        <label alignment="center" text="金钱: 100" id="ArP-Me-jwK">
+                            <color key="textColor" red="1" green="0.98926008470000004" blue="0.1364292912" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <button width="1" alignment="left" title="充值1000!" id="sMt-eS-qgf">
+                            <color key="titleColor" red="0.29198642590000001" green="1" blue="0.34967746890000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="chargeBonus" destination="AgC-eL-Hgc" id="8ad-Ly-kcZ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="试试手气!" id="kXI-hi-uXH">
+                            <connections>
+                                <action selector="startGuess" destination="AgC-eL-Hgc" id="qOK-kQ-SSD"/>
+                            </connections>
+                        </button>
+                        <label alignment="center" text="-/+ 押点数" id="Gm8-RF-YHM"/>
+                    </items>
+                    <connections>
+                        <outlet property="buttonCharge" destination="sMt-eS-qgf" id="t8B-zq-gbd"/>
+                        <outlet property="buttonStart" destination="kXI-hi-uXH" id="ES4-t1-bsH"/>
+                        <outlet property="labelBonus" destination="ArP-Me-jwK" id="USu-fm-19V"/>
+                        <outlet property="labelGuessNumber" destination="pqi-kR-koh" id="DeD-q5-dWb"/>
+                        <outlet property="labelResult" destination="Gm8-RF-YHM" id="FnF-vS-3uf"/>
+                        <outlet property="sliderGuess" destination="ag0-h3-SVu" id="MLs-bU-awe"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
